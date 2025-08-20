@@ -1,0 +1,39 @@
+/* UNIVERSAL SELECTOR */
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: green;
+} */
+
+
+
+/* ELEMENT SELECTOR */
+
+h1,h3{
+    color: red;
+}
+
+
+/* ID SELECTOR */
+#login{
+    background-color: white;
+}
+#signup{
+    color: red;
+    background-color: white;
+}
+.upvote{
+    color: green;
+}
+/* Decendent Selector */
+p a{
+    color:orange;
+    background-color: greenyellow;
+}
+p + h3{
+    text-decoration: underline;
+}
+
+/* Child Combinator */
+div > input{
+    background-color: aquamarine;
+}

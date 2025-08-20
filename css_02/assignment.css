@@ -1,0 +1,22 @@
+#mainTopic{
+    color: blue;
+    font-family: georgia;
+
+}
+*{
+    text-align: center;
+}
+div > button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+h1::first-letter{
+color:red;
+}
+button:checked{
+    color: green;
+}

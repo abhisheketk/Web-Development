@@ -1,0 +1,17 @@
+button:hover{
+background-color: black;
+color: white;
+}
+h3:hover{
+    text-decoration: double underline;
+}
+
+button:active{
+    background-color: aqua;
+}
+h1::first-letter{
+    color: green;
+}
+h1::selection{
+color: red
+}
